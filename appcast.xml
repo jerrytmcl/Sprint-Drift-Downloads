@@ -1,8 +1,21 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>SprintDrift</title>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Thu, 24 Sep 2026 14:19:02 -0700</pubDate>
+            <link>https://github.com/jerrytmcl/Sprint-Drift-Downloads/releases/tag/v0.1.1</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink sparkle:edSignature="75hHXqfqvZS4Y4g7KfrrtzcqkgzeOOmozwHsskE6WQLFdn1/blvYdK/1tExIYlxZRGUy3scdzDmvY35dAiacCA==" sparkle:length="1375">https://jerrytmcl.github.io/Sprint-Drift-Downloads/SprintDrift-0.1.1.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/jerrytmcl/Sprint-Drift-Downloads/releases/download/v0.1.1/SprintDrift-0.1.1.dmg" length="6290441" type="application/octet-stream" sparkle:edSignature="jaHlgnGAFCGVi7t3XnfJ5tJGms6rmkU08LQG9zpmRTqDgGo6suP5OqHJD3QXrwICAikyL8kMcoi4bfdLPEsiCg=="/>
+        </item>
         <item>
             <title>0.1.0</title>
             <pubDate>Thu, 24 Sep 2026 01:54:42 -0700</pubDate>
@@ -12,10 +25,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <sparkle:releaseNotesLink sparkle:edSignature="Vah+FrN0nv+2zNbLD/tIqKHDr7BcAGDAVhWcueX0Pjg8JBYLxcJgQnQQJIds0nUvJkTwDAHTVdpDcS0uJ9TGAw==" sparkle:length="1553">https://jerrytmcl.github.io/Sprint-Drift-Downloads/SprintDrift-0.1.0.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/jerrytmcl/Sprint-Drift-Downloads/releases/download/v0.1.0/SprintDrift-0.1.0.dmg" length="6289416" type="application/octet-stream" sparkle:edSignature="Cp49qRBKoE1hJLWbxdyoAQ0On86UR5eLErKaoAfxlg+4E8e+hlBko7JbEeLvMWASY8vJ+YHUNRIlhqAxQTthDA=="></enclosure>
+            <enclosure url="https://github.com/jerrytmcl/Sprint-Drift-Downloads/releases/download/v0.1.0/SprintDrift-0.1.0.dmg" length="6289416" type="application/octet-stream" sparkle:edSignature="Cp49qRBKoE1hJLWbxdyoAQ0On86UR5eLErKaoAfxlg+4E8e+hlBko7JbEeLvMWASY8vJ+YHUNRIlhqAxQTthDA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: T/BpOVY6JQieAq9Q9XXTI4iv19Z1//J4uY6/EMOs1jSXgnk1LzKjYHCbIZwiVk00eYazWebX4BwcEAAQ5DdqAw==
-length: 1508
+</rss>
+<!-- sparkle-signatures:
+edSignature: EPdchh/OgOZtoBZ7jSPk2wBsqM2NiFMtm67syI606jTmnb+5vc9pYDUw3dHR4AABNoCu0gjDqoYAaDj99reTCw==
+length: 2565
 -->
