@@ -43,6 +43,9 @@ records stay locally accessible on your Mac. Optional voice capture uses a
 separate 227.5 MB model that downloads only when you choose it; transcription
 then runs on this Mac.
 
+Read the plain-language [privacy and local-data notice](PRIVACY.md) for the
+current storage, network, model, export, and deletion boundaries.
+
 ## Verify the download
 
 Download both the DMG and its matching `.sha256` file, then run:
@@ -53,10 +56,18 @@ shasum -a 256 -c SprintDrift-<version>.dmg.sha256
 
 ## Support
 
-For help or a bug report, use
-[Issues](https://github.com/jerrytmcl/Sprint-Drift-Downloads/issues). Do not
-include private intentions, notes, transcripts, recordings, credentials, or
-unsanitized screenshots in a public issue.
+For help or a bug report, use the
+[guided issue form](https://github.com/jerrytmcl/Sprint-Drift-Downloads/issues/new/choose).
+The app menu can copy the non-sensitive version, build, macOS, and architecture
+facts that are useful in a report. Read [Support](SUPPORT.md) before including
+screenshots or logs.
+
+## Uninstall
+
+Quit Sprint Drift and move `SprintDrift.app` from Applications to the Trash.
+Removing the app does not automatically remove your locally stored records,
+downloaded voice model, exports, or chosen mirror folder. See
+[Support](SUPPORT.md#uninstall-and-local-data) for the deliberate cleanup paths.
 
 This repository contains downloads, signed update metadata, and release notes.
 It intentionally contains no application source code. Sprint Drift is

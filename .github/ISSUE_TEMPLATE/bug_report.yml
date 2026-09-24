@@ -1,0 +1,77 @@
+name: Bug report
+description: Report a Sprint Drift problem without sharing private sprint content.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Sprint Drift records can be sensitive. Do not include intentions, notes, reflections, transcripts, recordings, credentials, private repository names, personal file paths, or unsanitized screenshots.
+  - type: input
+    id: app-version
+    attributes:
+      label: Sprint Drift version and build
+      description: Use Sprint Drift → Copy Support Information.
+      placeholder: Sprint Drift 0.1.1 (2)
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and architecture
+      placeholder: macOS 27.0 — Apple silicon (arm64)
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Install or launch
+        - Update
+        - Timer or companion
+        - Typed note, Spark, or pause
+        - Voice capture or model download
+        - Saved sprint or Records
+        - Export, mirror, or deletion
+        - Settings or permissions
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What did you try?
+      description: Describe the actions without pasting private record content.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: repeats
+    attributes:
+      label: Does it repeat after quitting and reopening Sprint Drift?
+      options:
+        - Yes
+        - No
+        - I have not tried
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private sprint content, credentials, personal paths, and identifying information from this report and any attachments.
+          required: true
