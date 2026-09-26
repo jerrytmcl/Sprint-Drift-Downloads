@@ -11,7 +11,8 @@ from memory.
 
 [Download the latest signed and notarized release](https://github.com/jerrytmcl/Sprint-Drift-Downloads/releases/latest).
 
-Sprint Drift currently requires macOS 15 or later on Apple silicon.
+The current release is **Sprint Drift 0.1.1**. It requires macOS 15 or later
+on Apple silicon.
 
 ## Why use it?
 
@@ -56,8 +57,8 @@ shasum -a 256 -c SprintDrift-<version>.dmg.sha256
 
 ## Support
 
-For help or a bug report, use the
-[guided issue form](https://github.com/jerrytmcl/Sprint-Drift-Downloads/issues/new/choose).
+For help, an idea, or a bug report, use the private
+[feedback form](https://docs.google.com/forms/d/e/1FAIpQLSc6ykubkQNUf6M95oGK88mRHbiglO-qsZ9n4g0RY1G9Tlss3g/viewform).
 The app menu can copy the non-sensitive version, build, macOS, and architecture
 facts that are useful in a report. Read [Support](SUPPORT.md) before including
 screenshots or logs.

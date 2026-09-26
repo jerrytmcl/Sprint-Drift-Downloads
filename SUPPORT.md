@@ -1,8 +1,9 @@
 # Sprint Drift support
 
-Use the public [Sprint Drift issue
-forms](https://github.com/jerrytmcl/Sprint-Drift-Downloads/issues/new/choose)
-for installation problems, update problems, unclear behavior, and bugs.
+Use the private [Sprint Drift feedback
+form](https://docs.google.com/forms/d/e/1FAIpQLSc6ykubkQNUf6M95oGK88mRHbiglO-qsZ9n4g0RY1G9Tlss3g/viewform)
+for installation problems, update problems, unclear behavior, ideas, and bugs.
+An email address is optional.
 
 Sprint Drift has no telemetry or automatic crash reporter. A useful report
 includes:
@@ -16,9 +17,11 @@ includes:
 Use **Sprint Drift → Copy Support Information** to copy the first three system
 facts without copying sprint content.
 
-Do not include private intentions, notes, reflections, transcripts, recordings,
+The form is handled by Google Forms and stored in a private Google Sheet. Do
+not include private intentions, notes, reflections, transcripts, recordings,
 credentials, API keys, private repository names, personal file paths, or
-unsanitized screenshots in a public issue.
+unsanitized screenshots unless they are essential and you deliberately choose
+to share them.
 
 ## Current limits
 
